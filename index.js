@@ -22,4 +22,7 @@ class Bird {
   }
 
 
+} speak() {
+    return `${this.name} says meow!`
+  }
 }
