@@ -4,19 +4,20 @@ class Cat {
     this.sex =  sex;
   }
 
- speak() {
+  speak() {
     return `${this.name} says meow!`
   }
+}
 
 class Dog {
   constructor(name, sex) {
     this.name = name;
     this.sex =  sex;
-  }  speak() {
-    return `${this.name} says woof!`
   }
 
- 
+  speak() {
+    return `${this.name} says woof!`
+  }
 }
 
 class Bird {
@@ -25,15 +26,11 @@ class Bird {
     this.sex =  sex;
   }
 
-
-
-
-
-
   speak() {
     if (this.sex == "male") {
       return `It's me! ${this.name}, the parrot!`
     } else {
       return `${this.name} says squawk!`
     }
-  }}
+  }
+}
